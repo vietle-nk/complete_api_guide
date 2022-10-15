@@ -11,6 +11,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby] # Windows doe
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]              # Gets a debugger console
+  gem 'dotenv-rails', '~> 2.8', '>= 2.8.1'                         # Manage ENV variables
 end
 
 group :development do
