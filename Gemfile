@@ -17,6 +17,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'annotate', '~> 3.2'                                         # Explain DB structure
   gem 'listen', '~> 3.3'
   gem 'spring'                                                     # Keep application running in the background
 end
