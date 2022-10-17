@@ -5,6 +5,7 @@ ruby '2.6.3'
 
 gem 'active_model_serializers', '~> 0.10.13'                       # Serialize JSON data
 gem 'bootsnap', '>= 1.4.4', require: false                         # Reduces boot times through caching; required in config/boot.rb
+gem 'kaminari', '~> 1.2', '>= 1.2.2'                               # Pagination
 gem 'pg', '~> 1.1'                                                 # Use postgresql as the database for Active Record
 gem 'puma', '~> 5.0'                                               # Use Puma as the app server
 gem 'rails', '~> 6.1.7'                                            # Rails version
